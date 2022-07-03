@@ -1,0 +1,106 @@
+body{
+    margin: 0%;
+    font-family: 'Poppins';
+}
+div.img1{
+    background-image: url(https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    div.text1{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        span{
+            background-color: rgb(8, 105, 40);
+            padding: 3vmax 5vmax;
+            border-radius: 8px;
+            color:whitesmoke;
+            font-weight: 700;
+            font-size: 5vw;
+        }
+    }
+}
+div.img2{
+    background-image: url(https://cutewallpaper.org/21/natural-beauty-of-kashmir-wallpaper/100+-Free-Kashmir-and-Landscape-Images-Pixabay.jpg);
+    div.text2{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        span{
+            background-color: rgb(8, 105, 40);
+            padding: 3vmax 5vmax;
+            border-radius: 8px;
+            color:whitesmoke;
+            font-weight: 700;
+            font-size: 5vw;
+        }
+    }   
+} 
+div.img3{
+    background-image: url(https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=300);
+    div.text3{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        span{
+            background-color: rgba(6, 77, 115, 0.795);
+            padding: 3vmax 5vmax;
+            border-radius: 8px;
+            color:whitesmoke;
+            font-weight: 700;
+            font-size: 5vw;
+        }
+    }
+}
+div.img4{
+    background-image: url(https://images.pexels.com/photos/753772/pexels-photo-753772.jpeg?auto=compress&cs=tinysrgb&w=300);
+    div.text4{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        span{
+            background-color: rgba(90, 92, 91, 0.915);
+            padding: 3vmax 5vmax;
+            border-radius: 8px;
+            color:whitesmoke;
+            font-weight: 700;
+            font-size: 5vw;
+        }
+    }
+}
+div.img1, div.img2, div.img3, div.img4{
+   
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 70%;
+    position: relative;
+    background-attachment: fixed;
+    
+   
+}
+section.info1, section.info2, section.info3{
+    background-color: rgba(128, 128, 128, 0.145);
+    padding: 2vw;
+    
+    h2{
+        text-align: center;
+        font-size: 4vw;
+        margin: 0%;
+        margin-top: 0vw;
+        
+        
+    }
+    p{  
+        padding-top: 2vmax;
+        padding-left: 5vmax;
+        padding-right: 5vmax;
+        text-align: justify;
+        margin: 0%;
+        font-size: 3vw;
+    }
+}
+
